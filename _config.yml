@@ -1,0 +1,7 @@
+# Site settings
+title: Rachel Bayersdorfer
+description: A Collection of Projects by Rachel
+keywords: Crafting, Sewing, Quilting
+author: Rachel
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
