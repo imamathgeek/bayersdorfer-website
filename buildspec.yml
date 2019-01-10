@@ -1,0 +1,16 @@
+version: 0.2
+
+env:
+  variables:
+    S3_BUCKET_NAME: "bayersdorfer-website-s3-bucket"
+
+phases:
+  install:
+    commands:
+      - echo In install phase
+  build:
+    commands:
+      - echo In build phase
+  post_build:
+    commands:
+      - echo In post build phase
