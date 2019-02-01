@@ -7,10 +7,13 @@ env:
 phases:
   install:
     commands:
-      - echo In install phase
+      - echo In install
+      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
   build:
     commands:
-      - echo In build phase
+      - echo In build
+      - jekyll build
   post_build:
     commands:
       - echo In post build phase
+      - aws s3 sync _site/ s3://bayersdorfercom
