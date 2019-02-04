@@ -8,11 +8,11 @@ phases:
   install:
     commands:
       - echo In install
-      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
+      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist github-pages
   build:
     commands:
       - echo In build.
-      - jekyll build
+      - bundle exec jekyll build
   post_build:
     commands:
       - echo In post build phase
